@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import joblib
 from collections import namedtuple
 import altair as alt
