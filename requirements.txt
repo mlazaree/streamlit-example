@@ -6,4 +6,4 @@ urllib3
 numpy
 matplotlib
 seaborn
-mpl_toolkits
+mpl_toolkits.basemap
