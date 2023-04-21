@@ -1,12 +1,10 @@
-pip install joblib
+import joblib
 from collections import namedtuple
 import altair as alt
 import math
 import pandas as pd
 import streamlit as st
 
-
-import streamlit as st
 
 # Load the model from file
 model = joblib.load('C:/Users/kalaz/model.joblib')
