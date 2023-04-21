@@ -7,7 +7,9 @@ import streamlit as st
 
 
 # Load the model from file
-model = joblib.load(r"C:/Users/kalaz/model.joblib")
+file_url = "https://drive.google.com/file/d/1hzsBNqhhZmSHBwGfBD86kMU2A9H7dFFV/view?usp=sharing"
+file_name = "model.joblib"
+
 
 # Define your Streamlit app
 def app():
