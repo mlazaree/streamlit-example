@@ -6,4 +6,6 @@ urllib3
 numpy
 matplotlib
 seaborn
-mpl_toolkits.basemap
+cartopy
+proj
+ccrs
