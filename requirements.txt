@@ -3,3 +3,7 @@ pandas
 streamlit
 joblib==1.1.0
 urllib3
+numpy
+matplotlib
+seaborn
+mpl_toolkits
