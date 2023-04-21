@@ -4,11 +4,15 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import urllib.request
 
 
 # Load the model from file
 file_url = "https://drive.google.com/file/d/1hzsBNqhhZmSHBwGfBD86kMU2A9H7dFFV/view?usp=sharing"
-file_name = "model.joblib"
+file_id = file_url.split('/')[-2]
+dwn_url = "https://drive.google.com/uc?id=" + file_id
+urllib.request.urlretrieve(dwn_url, "model.joblib")
+model = joblib.load("model.joblib")
 
 
 # Define your Streamlit app
