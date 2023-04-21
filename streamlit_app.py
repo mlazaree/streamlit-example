@@ -1,4 +1,4 @@
-!pip install joblib
+pip install joblib
 from collections import namedtuple
 import altair as alt
 import math
