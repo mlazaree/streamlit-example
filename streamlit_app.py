@@ -1,10 +1,11 @@
+!pip install joblib
 from collections import namedtuple
 import altair as alt
 import math
 import pandas as pd
 import streamlit as st
 
-import joblib
+
 import streamlit as st
 
 # Load the model from file
